@@ -4,6 +4,11 @@ plugins {
 
 android {
     namespace = "com.example.myapplication"
+
+    buildFeatures {
+        viewBinding = true
+    }
+
     compileSdk {
         version = release(37)
     }
